@@ -5,13 +5,10 @@ import ViewImageScreen from "./app/screens/ViewImageScreen";
 import AppButton from "./app/components/AppButton";
 import Card from "./app/components/Card";
 import ListingDetailScreen from "./app/screens/ListingDetailScreen";
+import MessageScreen from "./app/screens/MessageScreen";
 
 export default function App({ title, onPress }) {
-  return (
-    <View>
-      <ListingDetailScreen />
-    </View>
-  );
+  return <MessageScreen />;
 }
 
 const styles = StyleSheet.create({});
