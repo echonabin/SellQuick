@@ -8,5 +8,6 @@ export default {
     fontSize: 18,
     fontFamily: Platform.OS === "android" ? "Roboto" : "helvetica",
     color: colors.dark,
+    flex: 1,
   },
 };
